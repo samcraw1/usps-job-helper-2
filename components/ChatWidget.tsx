@@ -32,7 +32,7 @@ function saveMessages(messages: Message[]) {
 }
 
 export default function ChatWidget() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [messages, setMessages] = useState<Message[]>([]);
   const [isStreaming, setIsStreaming] = useState(false);
   const [messageCount, setMessageCount] = useState(0);

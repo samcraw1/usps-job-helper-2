@@ -44,7 +44,7 @@ export const JOB_TYPES: JobType[] = [
     title: "City Carrier Assistant",
     abbreviation: "CCA",
     description: "Delivers mail on city routes on foot or by vehicle (LLV/ProMaster).",
-    pay: "~$19.33/hr starting",
+    pay: "~$20.73/hr starting",
     vehicleRequired: false,
     vehicleNote: "USPS provides vehicle (LLV or ProMaster)",
     conversionTime: "~2 years to career (varies by office)",
@@ -128,6 +128,9 @@ export const SUGGESTED_QUESTIONS = [
   "What's the difference between CCA and RCA?",
   "Where do I take the assessment?",
   "How long until I become career?",
+  "How does RCA pay work?",
+  "What's the difference between evaluated and hourly pay?",
+  "Is it better to be a CCA or RCA?",
 ];
 
 export const REDDIT_SUBREDDITS = ["USPS", "USPSComplaints", "PostalBlue", "NALC"];

@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import JobCard from "@/components/JobCard";
+import AdUnit from "@/components/AdUnit";
 import { JOB_TYPES } from "@/lib/constants";
 
 export default function Home() {
@@ -33,6 +34,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ad Unit */}
+      <div className="bg-navy-50 border-t border-navy-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <AdUnit slot="1234567890" format="horizontal" />
+        </div>
+      </div>
+
       {/* Job Types */}
       <section className="py-14 bg-navy-50">
         <div className="max-w-6xl mx-auto px-4">
@@ -50,6 +58,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Ad Unit */}
+      <div className="bg-white border-t border-navy-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <AdUnit slot="1234567890" format="horizontal" />
+        </div>
+      </div>
 
       {/* Social Proof */}
       <section className="py-14 bg-white">

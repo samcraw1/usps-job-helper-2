@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { APPLICATION_SITES } from "@/lib/constants";
+import AdUnit from "@/components/AdUnit";
 
 interface GuideLayoutProps {
   title: string;
@@ -69,8 +70,14 @@ export default function GuideLayout({
         </div>
       </div>
 
+      {/* Ad Unit */}
+      <AdUnit slot="1234567890" format="auto" className="my-2" />
+
       {/* Guide content */}
       <div className="prose prose-navy max-w-none">{children}</div>
+
+      {/* Ad Unit */}
+      <AdUnit slot="1234567890" format="auto" className="my-2" />
 
       {/* Bottom CTA */}
       <div className="mt-12 border-t border-navy-200 pt-8">

@@ -26,7 +26,7 @@ export default function CCAGuidePage() {
       <h2>Pay and Benefits</h2>
       <ul>
         <li>
-          <strong>Starting pay:</strong> ~$19.33/hour (verify current rate on
+          <strong>Starting pay:</strong> ~$20.73/hour (verify current rate on
           USPS website, rates are updated periodically)
         </li>
         <li>

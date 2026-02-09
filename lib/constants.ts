@@ -122,15 +122,111 @@ export const JOB_TYPES: JobType[] = [
   },
 ];
 
-export const SUGGESTED_QUESTIONS = [
-  "What USPS job is right for me?",
-  "How do I apply for CCA?",
-  "What's the difference between CCA and RCA?",
-  "Where do I take the assessment?",
-  "How long until I become career?",
-  "How does RCA pay work?",
-  "What's the difference between evaluated and hourly pay?",
-  "Is it better to be a CCA or RCA?",
+export interface QuestionCategory {
+  category: string;
+  questions: string[];
+}
+
+export const SUGGESTED_QUESTIONS_BY_CATEGORY: QuestionCategory[] = [
+  {
+    category: "Location-Based",
+    questions: [
+      "I live in Arkansas, what do you recommend for me?",
+      "What USPS jobs are available in Houston right now?",
+      "Is it better to apply to a small town office or a big city?",
+      "I'm in a rural area, should I go RCA or CCA?",
+      "Which offices have the fastest conversion times?",
+      "I'm willing to relocate, where should I apply?",
+      "Do smaller offices really convert faster?",
+    ],
+  },
+  {
+    category: "Situation-Based",
+    questions: [
+      "I don't have a car, what jobs can I do?",
+      "I have a felony, can I still work for USPS?",
+      "I'm a veteran, do I get priority?",
+      "I'm a college student, can I work part-time?",
+      "I got fired from USPS before, can I reapply?",
+      "I failed the drug test, how long before I can try again?",
+      "I have a DUI on my record, can I still deliver mail?",
+      "I'm 18, is that old enough to apply?",
+      "I don't have a high school diploma, can I apply?",
+      "I have a bad back, which position is easiest on the body?",
+      "I'm currently on unemployment, will USPS affect my benefits?",
+      "English isn't my first language, is that a problem?",
+    ],
+  },
+  {
+    category: "Money-Focused",
+    questions: [
+      "What's the fastest way to make $50K at USPS?",
+      "Which position pays the most starting out?",
+      "How much overtime can I really get as a CCA?",
+      "Is RCA worth it if I have to use my own car?",
+      "How much do maintenance workers make?",
+      "When do I start getting benefits?",
+      "What's the retirement plan like?",
+      "How does RCA pay work?",
+      "What's the difference between evaluated and hourly pay?",
+      "What's the 40-hour trap?",
+    ],
+  },
+  {
+    category: "Career Path",
+    questions: [
+      "How long until I become a regular?",
+      "Can I start as a CCA and switch to maintenance?",
+      "What's the path from carrier to supervisor?",
+      "I want a desk job at USPS, what are my options?",
+      "Is it better to go career or stay non-career for flexibility?",
+      "Can I transfer to another state?",
+      "What USPS job is right for me?",
+      "Is it better to be a CCA or RCA?",
+    ],
+  },
+  {
+    category: "Process/Confusion",
+    questions: [
+      "I applied 3 weeks ago and haven't heard back, is that normal?",
+      "What does 'Pre-Hire List' mean?",
+      "I got a conditional offer, am I hired?",
+      "How do I pass the assessment exam?",
+      "The website won't let me apply, what's wrong?",
+      "I applied on jobs.usps.com but can't find RCA positions",
+      "Do I need to apply to both websites?",
+      "My application says 'not eligible', what happened?",
+      "How do I apply for CCA?",
+      "Where do I take the assessment?",
+    ],
+  },
+  {
+    category: "Day-to-Day Reality",
+    questions: [
+      "What's a typical day like as a CCA?",
+      "How early do I have to wake up?",
+      "Can I listen to music while delivering?",
+      "What happens if it's raining or snowing?",
+      "Do I get holidays off?",
+      "What do I wear on my first day?",
+      "Is it true I'll work every Sunday?",
+      "How bad is the holiday season really?",
+      "How many hours a week will I actually work?",
+      "Do I get to pick my days off?",
+    ],
+  },
+  {
+    category: "Comparison/Decision",
+    questions: [
+      "CCA vs RCA, which should I pick?",
+      "USPS vs Amazon delivery driver, which is better?",
+      "USPS vs UPS vs FedEx, who pays the best?",
+      "Should I take this USPS job or keep my current job?",
+      "Mail handler vs carrier, what's the difference?",
+      "PSE clerk vs CCA, which has a better schedule?",
+      "What's the difference between CCA and RCA?",
+    ],
+  },
 ];
 
 export const REDDIT_SUBREDDITS = ["USPS", "USPSComplaints", "PostalBlue", "NALC"];

@@ -19,19 +19,45 @@ export default function GuidesPage() {
         walkthrough.
       </p>
 
-      {/* Application process callout */}
-      <Link
-        href="/guides/application-process"
-        className="block bg-accent-50 border border-accent-200 rounded-xl p-5 mb-8 hover:bg-accent-100 transition-colors"
-      >
-        <h2 className="font-bold text-navy-900 mb-1">
-          Step-by-Step Application Guide
-        </h2>
-        <p className="text-sm text-navy-600">
-          New to USPS? Start here. We walk through the entire application
-          process from creating your profile to your first day at orientation.
-        </p>
-      </Link>
+      {/* Application process callouts */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        <Link
+          href="/guides/application-process"
+          className="block bg-accent-50 border border-accent-200 rounded-xl p-5 hover:bg-accent-100 transition-colors"
+        >
+          <h2 className="font-bold text-navy-900 mb-1">
+            Step-by-Step Application Guide
+          </h2>
+          <p className="text-sm text-navy-600">
+            New to USPS? Start here. The full process from application to your
+            first day at orientation.
+          </p>
+        </Link>
+        <Link
+          href="/guides/hiring-pipeline"
+          className="block bg-amber-50 border border-amber-200 rounded-xl p-5 hover:bg-amber-100 transition-colors"
+        >
+          <h2 className="font-bold text-navy-900 mb-1">
+            Hiring Pipeline Tracker
+          </h2>
+          <p className="text-sm text-navy-600">
+            Already applied? Find out what your application status actually means
+            and what to expect next.
+          </p>
+        </Link>
+        <Link
+          href="/guides/ecareer-guide"
+          className="block bg-navy-50 border border-navy-200 rounded-xl p-5 hover:bg-navy-100 transition-colors"
+        >
+          <h2 className="font-bold text-navy-900 mb-1">
+            eCareer Portal Walkthrough
+          </h2>
+          <p className="text-sm text-navy-600">
+            Applying for RCA, maintenance, or driving? The eCareer portal is
+            confusing — this guide walks you through it.
+          </p>
+        </Link>
+      </div>
 
       {/* Job type cards */}
       <h2 className="text-xl font-bold text-navy-900 mb-4">

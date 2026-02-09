@@ -41,6 +41,12 @@ export default function Navbar() {
               How to Apply
             </Link>
             <Link
+              href="/guides/hiring-pipeline"
+              className="text-navy-200 hover:text-white transition-colors"
+            >
+              Hiring Pipeline
+            </Link>
+            <Link
               href="/about"
               className="text-navy-200 hover:text-white transition-colors"
             >
@@ -103,6 +109,13 @@ export default function Navbar() {
               className="block py-2 text-navy-200 hover:text-white transition-colors"
             >
               How to Apply
+            </Link>
+            <Link
+              href="/guides/hiring-pipeline"
+              onClick={() => setMobileOpen(false)}
+              className="block py-2 text-navy-200 hover:text-white transition-colors"
+            >
+              Hiring Pipeline
             </Link>
             <Link
               href="/about"

@@ -48,10 +48,12 @@ MHA (Mail Handler Assistant)
 - Apply on: jobs.usps.com
 
 PSE (Postal Support Employee)
-- Two types: Sales & Services (window clerk) and Mail Processing
+- Two types: Sales & Services (window clerk, customer-facing) and Mail Processing (plant, not customer-facing)
 - Pay: ~$19.62/hr starting
-- Schedule varies
-- Apply on: jobs.usps.com (Sales/Services) or eCareer (Mail Processing)
+- Schedule varies, Mail Processing often overnight shifts (plants run 24/7)
+- Apply on: jobs.usps.com (Sales/Services) or eCareer (Mail Processing) — DIFFERENT SITES for each type
+- Assessment: VEA 476 for Sales/Services, VEA 475 for Mail Processing
+- Conversion: ~2 years to career clerk position
 
 ARC (Assistant Rural Carrier)
 - Delivers packages only on Sundays/holidays for rural routes
@@ -60,17 +62,78 @@ ARC (Assistant Rural Carrier)
 - USPS usually provides vehicle
 - Apply on: eCareer
 
-Maintenance (Custodial, Mechanic, ET)
-- Career positions from day one
-- Higher pay, set schedules
-- Require passing specific exams (955, 916, etc.)
-- Apply on: eCareer
+Maintenance (Custodial, Mechanic, MPE, ET)
+- Laborer Custodial: Entry-level janitorial, ~$20-22/hr, Exam 916
+- Maintenance Mechanic: Semi-skilled, plumbing/HVAC/building, ~$23-26/hr, Exam 955
+- Maintenance Mechanic MPE: Skilled, mail processing equipment, ~$25-29/hr, Exam 955
+- Electronic Technician (ET): Most advanced, electronics/diagnostics, ~$27-32/hr, Exam 955
+- CAREER FROM DAY ONE (many positions) — this is a huge advantage. Full benefits, retirement, immediately.
+- Set schedules with consistent days off
+- Exams 916/955 test actual technical knowledge — NOT personality tests like VEA. Study required.
+- Apply on: eCareer portal
+- Finding them: Use Functional Area "Facilities" for custodial/building, "Processing Operations" for MPE/ET
+- Or search by keyword + state (USPS recommends NOT using Functional Area for broadest results)
+- Max 30 results shown on eCareer — if you see "30 hits" refine your search. Always hit Reset before new searches.
 
 Driving (TTO, MVO, PVO)
-- Tractor Trailer Operator, Motor Vehicle Operator, Postal Vehicle Operator
-- CDL required for TTO, clean driving record for others
-- Career or near-career positions
-- Apply on: eCareer
+- TTO (Tractor Trailer Operator): Drives 18-wheelers between facilities, CDL Class A required, ~$26-30/hr, Exam 944
+- MVO (Motor Vehicle Operator): Drives mail trucks (not trailers), clean driving record, ~$24-28/hr
+- PVO (Postal Vehicle Operator): Newer position, various vehicles, no CDL needed, ~$26-29/hr
+- Career or near-career from day one (many positions), full benefits
+- Clean driving record is CRITICAL — DUIs, violations can disqualify
+- Apply on: eCareer portal (search "tractor trailer", "motor vehicle operator", "TTO", "MVO", "PVO")
+
+ECAREER PORTAL NAVIGATION TIPS (when helping people apply):
+- eCareer is the OLD SAP-based portal — use desktop, mobile doesn't work well
+- Link: wp1-ext.usps.gov/sap/bc/webdynpro/sap/hrrcf_a_unreg_job_search
+- Candidate profile registration: wp1-ext.usps.gov/sap/bc/webdynpro/sap/hrrcf_a_candidate_registration
+- Only ONE profile per person — don't create multiple accounts
+- Max 30 search results shown — refine search if you see "30 hits"
+- ALWAYS hit "Reset" before new searches — old criteria carries over
+- Functional Area dropdown: "Facilities" = custodial/building, "Processing Operations" = MPE/ET/plant, "Transportation" = driving
+- Summary of Accomplishments field is limited to 6,000 characters — use STAR format
+- Session times out after 30 minutes of inactivity — save progress
+- Copy/paste from Word can turn apostrophes into # signs — review before submitting
+- Application stays in "draft" until submitted via "Send Application" tab
+- For current USPS employees: use LiteBlue eCareer, not the external portal
+
+EXAM NUMBERS REFERENCE:
+- VEA 474: CCA | VEA 475: MHA/Mail Processing | VEA 476: PSE Sales | VEA 477: RCA
+- Exam 916: Laborer Custodial | Exam 955: Maintenance Mechanic/MPE/ET | Exam 944: TTO
+- VEA exams are personality/situational judgment — no technical knowledge. Exams 916/944/955 test real knowledge.
+
+WORK TOURS (SHIFTS) FOR PLANT POSITIONS:
+USPS calls shifts "tours." Processing plants and facilities run 24/7 on three tours:
+- Tour 1 (Night/Overnight): ~11:00 PM – 7:30 AM — highest mail volume, most new PSE/MHA hires start here
+- Tour 2 (Day): ~7:00 AM – 3:30 PM — most desirable, need seniority to get this tour
+- Tour 3 (Evening/Afternoon): ~3:00 PM – 11:30 PM — second busiest, also common for new hires
+- Exact times vary by facility
+- Non-career employees (PSE, MHA) typically don't get to choose their tour
+- Tour can change with little notice during peak season (Nov-Jan)
+- After converting to career, you can bid on preferred tours by seniority
+- KEY WARNING: Many people apply for plant jobs not realizing they'll be working overnight. If someone can't work nights, a plant position may not be right initially. Carrier positions (CCA, RCA) are daytime work by comparison.
+- This applies to: PSE Mail Processing, MHA, plant-based Maintenance (MPE, ET)
+
+USPS HIRING PIPELINE STAGES (explain these when someone asks about their application status):
+Stage 1: Application Received / Pre-Screening — USPS checks basic eligibility (auto). Wait: 1-3 days.
+Stage 2: Assessment/Exam — Take the VEA or technical exam for your position. Score 70+ to pass. Higher score = higher ranking = faster offers. Wait: 1-7 days for invite.
+Stage 3: Pre-Hire List — You passed the exam and are in the candidate pool. THIS IS NOT A JOB OFFER. You're waiting to be reviewed by a local office. Can wait 2 weeks to 6+ months or up to 1 year. This is where most anxiety happens. Ranking depends on exam score and veteran preference. ALWAYS advise: apply to multiple postings/locations.
+Stage 4: Hiring List — Your name is on a ranked list the hiring manager can see. May get interview (common for maintenance, rare for carriers). Wait: 1-4 weeks.
+Stage 5: Selection List — Local office selected you. Background check (NACI, last 5 years), drug test (urine, NO marijuana even in legal states — federal agency), fingerprinting initiated. STILL NOT HIRED — failed check/test kills application. Wait: 1-4 weeks.
+Stage 6: Offer Phase (Ext) — Selected, background processing/cleared, drug test passed. Waiting on HR/district approvals. Can take days to months. DO NOT quit current job yet. If stuck 4+ weeks, okay to call contact number on posting. Wait: 3 days to 4+ weeks.
+Stage 7: Offer Accepted → Orientation Letter — Official offer, orientation letter with start date. Orientation 3-5 days (PAID). Bring two forms of ID, bank info, SS card. Business casual first day. Then driving exam, academy (CCA Academy or REACT for RCA), or OJT (MHA/PSE). 90-day probation starts.
+
+KEY HIRING PIPELINE TIPS (always mention relevant ones):
+- Pre-hire list ≠ hired. Selection list ≠ hired. Only Stage 7 = hired.
+- Exam score determines ranking — it matters more than people think
+- Veterans get federal preference and jump ahead on the list
+- Apply to MULTIPLE postings and locations — don't wait on one office
+- Check email constantly INCLUDING SPAM FOLDER — all USPS communication is email only
+- Total process: 2 weeks to 6+ months depending on position and location
+- Nobody at USPS will proactively update you — check your application status yourself
+- Don't quit your job until you have a firm start date and passed all checks
+
+SCAM WARNING: The application and ALL exams are FREE. Any website charging money for USPS applications or exam access is a SCAM. Always direct people to the official USPS portals only.
 
 RCA EVALUATED PAY SYSTEM (RRECS):
 

@@ -70,6 +70,17 @@ export default function ApplicationProcessPage() {
           If you apply on the wrong site, you won&apos;t find the job you&apos;re
           looking for. This is USPS&apos;s system — confusing, but it is what it is.
         </p>
+        <p>
+          <strong>Applying on the eCareer portal?</strong> It&apos;s an older,
+          more confusing system. We wrote a{" "}
+          <Link
+            href="/guides/ecareer-guide"
+            className="text-accent-600 hover:text-accent-700 font-medium"
+          >
+            detailed eCareer Portal walkthrough
+          </Link>{" "}
+          with step-by-step instructions and tips.
+        </p>
 
         <h2>Step 1: Create Your Profile</h2>
         <p>
@@ -238,18 +249,92 @@ export default function ApplicationProcessPage() {
         <p>After orientation:</p>
         <ul>
           <li>
-            <strong>CCAs:</strong> Attend CCA Academy (additional training
-            specific to carrier duties), then shadow days with experienced
-            carriers before running your own route
+            <strong>Both CCAs and RCAs:</strong> Must attend orientation AND pass
+            the driving exam/course (usually 1-2 days) before starting training.
           </li>
           <li>
-            <strong>RCAs:</strong> Shadow experienced rural carriers, learn
-            routes, and start covering days off
+            <strong>CCAs:</strong> Attend CCA Academy (classroom +
+            carrier-specific training), then shadow experienced carriers before
+            running your own route.
           </li>
           <li>
-            <strong>MHAs/PSEs:</strong> On-the-job training at your facility
+            <strong>RCAs:</strong> Attend REACT Academy (rural carrier academy),
+            then shadow experienced rural carriers and start covering days off.
+          </li>
+          <li>
+            <strong>MHAs/PSEs:</strong> On-the-job training at your facility.
           </li>
         </ul>
+
+        <h2>Understanding Work Tours (Shifts)</h2>
+        <p>
+          If you&apos;re applying for a plant or facility position (PSE Mail
+          Processing, MHA, some Maintenance roles), you need to understand how
+          USPS schedules work. Instead of calling them &quot;shifts,&quot; USPS
+          calls them <strong>&quot;tours.&quot;</strong> There are three:
+        </p>
+        <h3>Tour 1 (Night/Overnight): ~11:00 PM – 7:30 AM</h3>
+        <ul>
+          <li>This is when most mail gets processed and sorted</li>
+          <li>Highest volume of work happens on this tour</li>
+          <li>
+            <strong>
+              Most new PSE Mail Processing and MHA positions start here
+            </strong>
+          </li>
+          <li>
+            If you&apos;re applying for a plant job, expect to work nights
+            initially
+          </li>
+        </ul>
+        <h3>Tour 2 (Day): ~7:00 AM – 3:30 PM</h3>
+        <ul>
+          <li>Administrative staff, some maintenance, dispatch operations</li>
+          <li>
+            Generally the most desirable tour — hardest to get as a new hire
+          </li>
+          <li>
+            You&apos;ll likely need seniority to bid onto this tour
+          </li>
+        </ul>
+        <h3>Tour 3 (Evening/Afternoon): ~3:00 PM – 11:30 PM</h3>
+        <ul>
+          <li>Mix of processing and dispatch</li>
+          <li>Second busiest tour after Tour 1</li>
+          <li>Common starting tour for new hires alongside Tour 1</li>
+        </ul>
+        <h3>Important things to know about tours:</h3>
+        <ul>
+          <li>
+            Exact times vary by facility — these are approximate
+          </li>
+          <li>
+            As a non-career employee (PSE, MHA), you typically don&apos;t get to
+            choose your tour
+          </li>
+          <li>
+            Your tour can change with little notice, especially during peak
+            season (November-January)
+          </li>
+          <li>
+            Once you convert to career, you can bid on preferred tours based on
+            seniority
+          </li>
+          <li>
+            <strong>&quot;Tour preference&quot;</strong> is one of the biggest
+            perks of gaining seniority
+          </li>
+          <li>
+            Some job postings will specify the tour — read the posting carefully
+          </li>
+        </ul>
+        <p>
+          <strong>Why this matters:</strong> A lot of people apply for plant jobs
+          not realizing they&apos;ll be working overnight. If you can&apos;t work
+          nights, a plant position may not be the right fit — at least not
+          initially. Carrier positions (CCA, RCA) are daytime work by
+          comparison.
+        </p>
 
         <h2>Your First 90 Days: Probation</h2>
         <p>

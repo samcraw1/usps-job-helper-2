@@ -43,8 +43,7 @@ export default function AboutPage() {
 
         <h2>About Sam</h2>
         <p>
-          Sam is a current USPS City Carrier Assistant (CCA) with over 500,000
-          followers across social media. He&apos;s been through the entire USPS
+          Sam is a current USPS City Carrier Assistant (CCA). He&apos;s been through the entire USPS
           hiring process himself and has spent years helping others navigate it
           through his content.
         </p>

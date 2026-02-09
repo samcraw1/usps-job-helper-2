@@ -73,15 +73,11 @@ export default function Home() {
             Built by Someone Who&apos;s Been Through It
           </h2>
           <p className="text-navy-600 max-w-2xl mx-auto mb-8">
-            Sam is a current USPS City Carrier Assistant with 500K+ social media
-            followers. After answering thousands of DMs about the USPS hiring
-            process, he built this tool to help everyone navigate the system.
+            Sam is a current USPS City Carrier Assistant. After answering
+            thousands of DMs about the USPS hiring process, he built this tool
+            to help everyone navigate the system.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <div className="bg-navy-50 rounded-xl px-6 py-4 border border-navy-200">
-              <div className="text-2xl font-bold text-navy-900">500K+</div>
-              <div className="text-sm text-navy-500">Social media followers</div>
-            </div>
             <div className="bg-navy-50 rounded-xl px-6 py-4 border border-navy-200">
               <div className="text-2xl font-bold text-navy-900">1000s</div>
               <div className="text-sm text-navy-500">Questions answered</div>

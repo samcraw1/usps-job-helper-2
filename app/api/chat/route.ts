@@ -110,11 +110,10 @@ export async function POST(req: Request) {
           controller.enqueue(encoder.encode("data: [DONE]\n\n"));
           controller.close();
         } catch (error) {
-          const errorMessage =
-            error instanceof Error ? error.message : "Stream error";
+          console.error("Stream error:", error);
           controller.enqueue(
             encoder.encode(
-              `data: ${JSON.stringify({ error: errorMessage })}\n\n`
+              `data: ${JSON.stringify({ error: "Sorry, something went wrong. Please try again." })}\n\n`
             )
           );
           controller.close();
